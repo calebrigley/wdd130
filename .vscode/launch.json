@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open box-model.html",
-            "file": "c:\\Users\\caleb\\OneDrive\\Desktop\\wdd130\\week02\\box-model.html"
+            "file": "c:\\Users\\caleb\\OneDrive\\Desktop\\wdd130\\index.html"
         }
     ]
 }
