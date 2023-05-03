@@ -14,6 +14,7 @@ h1 {
 }
 
 main img {
+  float:right;
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
@@ -33,9 +34,8 @@ aside {
   margin: 1em;
   border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
   padding: 1em;
-  background-color: #eee;
-  color: #333;
   text-align: center;
+  position: relative;
 }
 
 aside img {
@@ -47,4 +47,19 @@ footer {
   margin-top: 1em;
   border-top: 1px solid #000;
   text-align: center;
+}
+      
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #B79FAD;
+  color: #000;
 }
