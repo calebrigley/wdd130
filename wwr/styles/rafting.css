@@ -13,84 +13,80 @@
     --nav-link-color: #2E6171;
     --nav-hover-link-color: #2E6171;
     --nav-hover-background-color: #2E6171;
-  }
- section {
+}
+section {
   flex: auto;
   justify-content: center;
 
- }
- .sociallinks{
+}
+.sociallinks{
   padding: 5px;
   flex: right;
- }
- header, .grid, footer {
+}
+header, .grid, footer {
   max-width: 840px;
   margin: 0 auto;
 }
-  nav {
-    background-color: steelblue;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
+nav {
+  background-color: steelblue;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 
 
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 5px;
-  }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
 
-  nav a {
-    display: block;
-    padding: 0.5rem;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #fff;
-  }
-  section img{
-    width: 150px;
-    height: auto;
-    padding: 5px;
+nav a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+section img{
+  width: 150px;
+  height: auto;
+  padding: 5px;
 
-  }
-  article img {
-    display: block;
-    width: 200px;
-    height: auto;
-    float: right;
-    padding: 5px;
-  }
+}
+article img {
+  display: block;
+  width: 200px;
+  height: auto;
+  float: right;
+  padding: 5px;
+}
 
-  header {
-    padding: 20px;
-    background-color: var(--accent1-color);
-  }
-  
-  p {
-    padding: 25px;
-  }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
 
-  h1 {
+p {
+  padding: 25px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-  }
+h1, h2, h3, h4, h5, h6 {
+  margin:auto;
+  text-align: center;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    margin:auto;
-    text-align: center;
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-  }
-
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
