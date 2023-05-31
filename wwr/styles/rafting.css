@@ -26,6 +26,7 @@ section {
 header, .grid, footer {
   max-width: 840px;
   margin: 0 auto;
+  text-align: center;
 }
 nav {
   background-color: steelblue;
@@ -35,7 +36,9 @@ nav {
   align-items: center;
 }
 
-
+article{
+  justify-content: center;
+}
 
 .grid {
   display: grid;
@@ -57,16 +60,9 @@ section img{
   padding: 5px;
 
 }
-article img {
-  display: block;
-  width: 200px;
-  height: auto;
-  float: right;
-  padding: 5px;
-}
 
 header {
-  padding: 20px;
+  padding: 10px;
   background-color: var(--accent1-color);
 }
 
@@ -89,4 +85,85 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
+}
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+  
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: .5rem;
+}
+legend {
+  color: navy;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+label, input, button, select, textarea {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+label, legend {
+display: flex;
+text-align: left;
+padding-right: 1rem;
+}
+
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.form-item {
+display: grid;
+align-items: center;
+}
+
+.column1 {
+grid-template-columns: 3fr 1fr;
+margin: 0.5rem 0;
+}
+
+.column2 {
+grid-template-columns: 1fr 2fr;
+}
+button {
+  margin: 1rem;
+  background-color: rgb(26, 0, 128);
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
 }

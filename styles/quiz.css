@@ -24,14 +24,14 @@ body {
 header {
     margin: 0 auto;
     width: 650px;
-  }
+}
   
 h1 {
     margin: 1rem;
     font-size: 1.5em;
     color: navy;
     text-align: center;
-  }
+}
   
 input[type="checkbox"] {
     width: 22px;
