@@ -15,11 +15,13 @@
     --nav-hover-background-color: #2E6171;
   }
  section {
-  display: flex;
-  justify-content: space-evenly;
+  flex: auto;
+  justify-content: center;
+
  }
  .sociallinks{
-  float: right;
+  padding: 5px;
+  flex: right;
  }
  header, .grid, footer {
   max-width: 840px;
@@ -50,10 +52,9 @@
     color: #fff;
   }
   section img{
-
     width: 150px;
     height: auto;
-    padding: 2px;
+    padding: 5px;
 
   }
   article img {
@@ -61,6 +62,7 @@
     width: 200px;
     height: auto;
     float: right;
+    padding: 5px;
   }
 
   header {
@@ -71,13 +73,20 @@
   p {
     padding: 25px;
   }
-
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
   h1 {
-    justify-content: center;
+
   }
-  h2, h3, h4, h5, h6 {
-    justify-content: center;
+
+  h1, h2, h3, h4, h5, h6 {
+    margin:auto;
+    text-align: center;
     font-family: var(--heading-font);
     color: var(--primary-color);
   }
