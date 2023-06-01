@@ -14,6 +14,11 @@
     --nav-hover-link-color: #2E6171;
     --nav-hover-background-color: #2E6171;
 }
+
+.hero{
+  float: right;
+  text-align: right;
+}
 section {
   flex: auto;
   justify-content: center;
