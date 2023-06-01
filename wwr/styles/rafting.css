@@ -18,11 +18,11 @@
 .hero{
   float: right;
   text-align: right;
+  display: flex;
 }
 section {
   flex: auto;
   justify-content: center;
-
 }
 .sociallinks{
   padding: 5px;
@@ -40,7 +40,21 @@ nav {
   justify-content: space-evenly;
   align-items: center;
 }
+aside {
+  margin: 1em;
+  border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+  padding: 1em;
+  text-align: center;
+  position: relative;
+}
 
+.box {
+  margin: 1rem;
+  border: 10px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #B79FAD;
+  color: #000;
+}
 article{
   justify-content: center;
 }
@@ -50,9 +64,14 @@ article{
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 5px;
   justify-content: center;
+  margin: 1rem;
+  border: 10px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #B79FAD;
+  color: #000;
 }
 
-nav a {
+a {
   display: block;
   padding: 0.5rem;
   text-decoration: none;
@@ -146,7 +165,6 @@ display: flex;
 text-align: left;
 padding-right: 1rem;
 }
-
 
 input, select, textarea {
   padding: 0.5rem;
