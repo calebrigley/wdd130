@@ -14,6 +14,28 @@
     --nav-hover-link-color: #2E6171;
     --nav-hover-background-color: #2E6171;
 }
+main img {
+  float:right;
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+
+main {
+  max-width: 840px;
+}
+
+aside {
+  margin: 1em;
+  border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+  padding: 1em;
+  text-align: center;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
 
 .hero{
   float: right;
@@ -24,6 +46,10 @@ section {
   flex: auto;
   justify-content: center;
 }
+aside img {
+  width: 200px;
+  height: auto;
+}
 .sociallinks{
   padding: 5px;
   flex: right;
@@ -32,6 +58,26 @@ header, .grid, footer {
   max-width: 840px;
   margin: 0 auto;
   text-align: center;
+}
+.grid {
+  display: flex;
+  align-items: center;
+}
+
+.content{
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  display: flex;
+}
+
+main {
+  grid-column: 2/3;
+  margin: 1rem;
+}
+.epic {
+  position: center;
 }
 nav {
   background-color: steelblue;
@@ -54,6 +100,8 @@ aside {
   padding: 1rem;
   background-color: #B79FAD;
   color: #000;
+  display: flex;
+  overflow: auto;
 }
 article{
   justify-content: center;
@@ -69,6 +117,7 @@ article{
   padding: 1rem;
   background-color: #B79FAD;
   color: #000;
+  align-items: center;
 }
 
 a {
@@ -85,7 +134,10 @@ section img{
   padding: 5px;
 
 }
-
+main {
+  grid-column: 2/3;
+  margin: 1rem;
+}
 header {
   padding: 10px;
   background-color: var(--accent1-color);
@@ -107,9 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
-map{
-  justify-content: center;
-}
+
 a {
   text-decoration: none;
 }
